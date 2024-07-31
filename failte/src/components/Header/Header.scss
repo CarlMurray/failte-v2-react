@@ -1,0 +1,38 @@
+@use "../../assets/css/vars.scss";
+
+header {
+  border: 1px solid red;
+  height: 100px;
+  width: 100%;
+  background-color: vars.$primary-color;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 1.2em;
+}
+
+li:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+@use "./css-reset.scss";
+@use "../../components/Header/Header";
+
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*:hover {
+  border: 1px solid red;
+}
