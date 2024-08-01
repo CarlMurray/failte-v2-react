@@ -1,5 +1,4 @@
 import "./Header.scss";
-// import "../../assets/css/index.scss";
 
 export default function Header() {
   return (

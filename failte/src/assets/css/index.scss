@@ -1,9 +1,25 @@
 @use "./css-reset.scss";
 @use "../../components/Header/Header";
+@use "../../components/Footer/Footer";
+@use "../css/vars.scss";
 
 :root {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lilita One", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 *:hover {
   border: 1px solid red;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container {
+  width: vars.$container-width;
+  margin-inline: auto;
+  height: 100%;
 }
