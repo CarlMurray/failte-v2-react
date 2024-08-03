@@ -2,7 +2,7 @@ import "./SearchInput.scss";
 
 export default function SearchInput() {
   return (
-    <div>
+    <div id="search-input-container">
       <input
         id="search-input"
         type="search"
