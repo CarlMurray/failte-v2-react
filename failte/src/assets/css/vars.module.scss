@@ -2,3 +2,7 @@ $primary-color: #004846;
 $header-height: 100px;
 $footer-height: $header-height;
 $container-width: 80%;
+
+:export {
+  primaryColor: $primary-color;
+}

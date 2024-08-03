@@ -2,7 +2,7 @@
 @use "../../components/Header/Header";
 @use "../../components/Footer/Footer";
 @use "../../components/SearchContainer/SearchContainer.scss";
-@use "../css/vars.scss";
+@use "../css/vars.module.scss";
 
 :root {
   font-family: "Lilita One", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

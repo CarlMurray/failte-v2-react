@@ -1,8 +1,24 @@
-@use "../../../../assets/css/vars.scss";
+@use "../../../../assets/css/vars.module.scss";
 
 .attraction-action-button-circle {
   border-radius: 100%;
-  background-color: grey;
+  background-color: #fff;
   height: 30px;
   aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid vars.$primary-color;
+}
+
+.attraction-action-button-circle svg {
+  height: 55%;
+}
+
+.hovered {
+  background-color: vars.$primary-color;
+}
+
+.hovered svg {
+  fill: #fff;
 }
