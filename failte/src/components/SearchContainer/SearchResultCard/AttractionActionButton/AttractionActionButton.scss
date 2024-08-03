@@ -1,0 +1,8 @@
+@use "../../../../assets/css/vars.scss";
+
+.attraction-action-button-circle {
+  border-radius: 100%;
+  background-color: grey;
+  height: 30px;
+  aspect-ratio: 1;
+}

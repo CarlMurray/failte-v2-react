@@ -1,0 +1,13 @@
+@use "../../../assets/css/vars.scss";
+
+.search-result-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.attraction-icon-button-container {
+  display: flex;
+  gap: 10px;
+}
