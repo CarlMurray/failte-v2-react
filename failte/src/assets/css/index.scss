@@ -1,14 +1,11 @@
 @use "./css-reset.scss";
 @use "../../components/Header/Header";
 @use "../../components/Footer/Footer";
+@use "../../components/SearchContainer/SearchContainer.scss";
 @use "../css/vars.scss";
 
 :root {
   font-family: "Lilita One", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-*:hover {
-  border: 1px solid red;
 }
 
 #root {
@@ -22,4 +19,8 @@
   width: vars.$container-width;
   margin-inline: auto;
   height: 100%;
+}
+
+input {
+  border: none;
 }
