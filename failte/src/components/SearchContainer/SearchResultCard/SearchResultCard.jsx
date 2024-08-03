@@ -10,8 +10,8 @@ export default function SearchResultCard({
 }) {
   return (
     <div className="search-result-card">
-      <h3>{attractionHeading}</h3>
-      <h4>{attractionLocale}</h4>
+      <h3 className="attraction-heading">{attractionHeading}</h3>
+      <h4 className="attraction-locale">{attractionLocale}</h4>
       <div className="attraction-icon-button-container">
         <AttractionActionButton url={url} />
         <AttractionActionButton phone={phone} />

@@ -1,3 +1,8 @@
 .main-body-container {
   height: 100%;
+  display: flex;
+}
+
+#gmaps-container {
+  flex-grow: 1;
 }
