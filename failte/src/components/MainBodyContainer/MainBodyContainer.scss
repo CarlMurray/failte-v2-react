@@ -1,6 +1,7 @@
+@use "../../assets/css/vars.module.scss";
 .main-body-container {
-  height: 100%;
   display: flex;
+  height: calc(100vh - vars.$header-height - vars.$footer-height);
 }
 
 #gmaps-container {

@@ -3,7 +3,17 @@
 .search-container {
   width: 30%;
   background-color: #fff;
-  height: calc(100vh - vars.$header-height - vars.$footer-height);
   padding: 15px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.search-results-container {
   overflow-y: scroll;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
