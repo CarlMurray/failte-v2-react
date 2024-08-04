@@ -43,7 +43,7 @@ const apiKey = import.meta.env.VITE_GMAPS_API_KEY;
 // Initialize and add the map
 let map;
 
-async function initMap() {
+export default async function initMap() {
   // The location of Uluru
   const position = { lat: 53.3834, lng: -8.099255 };
   // Request needed libraries.
@@ -51,11 +51,10 @@ async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
 
   // The map, centered at Uluru
-  map = new Map(document.getElementById("gmaps-container"), {
+  map = await new Map(document.getElementById("gmaps-container"), {
     zoom: 7,
     center: position,
     mapId: "47f8f1437cc57452",
   });
+  return map;
 }
-
-initMap();
